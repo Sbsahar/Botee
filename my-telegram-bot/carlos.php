@@ -19,7 +19,7 @@ $ch = curl_init();
 function SendChatAction($chat_id, $action)
 {
     return bot('sendChatAction', [
-        'chat_id' => $chat_id,
+        '-1002451761677' => $chat_id,
         'action' => $action
     ]);
 }
