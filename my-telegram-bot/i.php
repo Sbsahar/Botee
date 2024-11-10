@@ -1,8 +1,8 @@
 <?php
-$admin = "1235694242";
-$admin2 = "1235694242";
-$Dev = array("1231723044","1235694242");
-$token = "7459745711:AAHMW22z0WU5jxPd2RKBE4jQAopgx_zxhiM";
+$admin = "7765831512";
+$admin2 = "7765831512";
+$Dev = array("7765831512","7765831512");
+$token = "7867744663:AAHIzRarfuC0Ms8cQU76Q3ORT6W6waHJlfc";
   function bot($method,$datas=[]){
     $abuehab = http_build_query($datas);
         $url = "https://api.telegram.org/bot".$GLOBALS['token']."/".$method."?$abuehab";
