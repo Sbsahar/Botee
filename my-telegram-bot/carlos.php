@@ -2,7 +2,7 @@
 $info = json_decode(file_get_contents("admin.json"),1);
 $token = $info['token'];
 define('API_KEY',$token);
-echo file_get_contents("https://api.telegram.org/bot" . API_KEY . "/setwebhook?url=" . $_SERVER['SERVER_NAME'] . "" . $_SERVER['SCRIPT_NAME']);
+echo file_get_contents("https://api.telegram.org/bot" . API_KEY . "/setwebhook?url=" . $_SERVER['2a02:4780:28:df9f'] . "" . $_SERVER['2a02:4780:28:df9f']);
             function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
 $ch = curl_init();
